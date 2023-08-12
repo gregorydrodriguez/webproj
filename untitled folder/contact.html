@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="stylesheet.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Gregory Rodriguez" />
+  <meta name="description" content="Your Source for Real Estate" />
+  <meta name="keywords" content="rental, leases, realty, property, house, condo" />
+  <title>Source Realty</title>
+</head>
+
+<body>
+  <header>
+    <h1 class="maintitle">Source Realty</h1>
+    <h4 class="maintitle">"Opening doors to your dreams"</h4>
+    <nav class="navigation">
+      <a href="index.html">Main</a>
+      <a href="houses.html">Houses</a>
+      <a href="condominiums.html">Condominiums</a>
+      <a href="business.html">Business</a>
+      <a href="officespace.html">Office Space</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <h4>Contact Us</h4>
+  <form onsubmit="validateForm()">
+    <fieldset>
+      <label>First Name:<input id="firstName" type="text" name="firstname" size="30" maxlength="30"
+          required></label><br>
+      <label>Last Name:<input id="lastName" type="text" name="lastname" size="30" maxlength="30" required></label><br>
+      <label>Email:<input id="email" type="email" name="email" size="30" maxlength="30" required></label><br>
+      <label>Inquiry:<input id="inquiry" type="text" name="inquiry" size="120" maxlength="500"></label><br>
+    </fieldset>
+    <button type="submit" id="submit">Submit</button>
+  </form>
+  <footer>
+    <p>Final Project &copy; 2023 Source Realty. All rights reserved.</p>
+  </footer>
+  <script src="contact.js"></script>
+</body>
+
+</html>
